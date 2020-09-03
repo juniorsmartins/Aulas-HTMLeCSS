@@ -1,0 +1,1022 @@
+/* Autor: Junior Martins - https://juniormartins.46graus.com/ */
+/* Cliente: Xoxo Espaço Festas - A felicidade dos filhos garantida */
+/* Objetivo: Site comercial na área de locação de espaço para Festas Infantis */
+/* Protocolo: 1207-20
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* GLOBAIS */
+
+.Principal {position: absolute;
+            top: 0%;
+            left: 10%;
+            width: 80%;
+            height: 1450px;
+            margin: 0%;
+            padding: 0%;
+            box-shadow: 0px 0px 10px #000000; 
+            }
+ 
+h1 h2 h3 h4 h5 h6 {font-family: "Jazz LET", blippo, fantasy; /* Definição de fonte A e B e família */
+                   font-style: normal; /* Estilo normal (poderia ser italic ou oblique) */
+                   font-weight: bold; /* Fonte com peso Negrito */
+                   }
+
+p {font-family: "Comic Sans", "bradley hand", cursive; /* Definição de fonte A e B e família */
+   font-style: normal; /* Estilo normal (poderia ser italic ou oblique) */
+   font-weight: normal; /* Fonte com peso Normal */
+   }
+
+a:link {color: #FFFAFA; /* Personalizar link */
+        text-decoration: none; /* Alterar decoração do link - retirada do sublinhado padrão */
+        }
+a:visited {color: #FFFAFA; /* Personalizar link visitado */
+           text-decoration: none;
+           }
+a:hover {color: black; /* Personalizar link sob o mouse */
+         text-decoration: none;
+         }
+a:active {color: red; /* Personalizar link quando clicado */
+          text-decoration: none;
+          }
+li:hover {background-color: #FF8608; /* Personalizar fundo do item da lista sob o mouse */
+          }
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* NAV */
+
+.Navbar {position: absolute;
+	       top: 0%;
+	       left: 0%;
+	       width: 100%;
+	       height: 2.2%;
+	       margin: 0%; /* Sem margem */
+	       padding: 0%;
+	       background-image: linear-gradient(to right, #FF8608, #FFFF0D); /* Gradiente para a direita entre cores A e B */
+         }
+         .Navbar_Icones {position: absolute;
+                         top: 7%;
+                         left: 3%;
+                         width: 20%;
+                         height: 80%;
+                         margin: 0%;
+                         padding: 0%;
+                         }
+                         .Nav_Icone1 {position: absolute;
+                                      top: 0%;
+                                      left: 0%;
+                                      width: 11%;
+                                      height: 100%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      }
+                                      .Nav_Icone1 img {width: 100%; height: 100%;}
+                                      .Nav_Icone1 img:hover {width: 105%; height: 110%;}
+                         .Nav_Icone2 {position: absolute;
+                                      top: 0%;
+                                      left: 11.5%;
+                                      width: 11%;
+                                      height: 100%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      }
+                                      .Nav_Icone2 img {width: 100%; height: 100%;}
+                                      .Nav_Icone2 img:hover {width: 105%; height: 110%;}
+                         .Nav_Icone3 {position: absolute;
+                                      top: 0%;
+                                      left: 23%;
+                                      width: 11%;
+                                      height: 100%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      }
+                                      .Nav_Icone3 img {width: 100%; height: 100%;}
+                                      .Nav_Icone3 img:hover {width: 105%; height: 110%;}
+                         .Nav_Icone4 {position: absolute;
+                                      top: 0%;
+                                      left: 34.5%;
+                                      width: 11%;
+                                      height: 100%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      }
+                                      .Nav_Icone4 img {width: 100%; height: 100%;}
+                                      .Nav_Icone4 img:hover {width: 105%; height: 110%;}
+                         .Nav_Icone5 {position: absolute;
+                                      top: 0%;
+                                      left: 46%;
+                                      width: 11%;
+                                      height: 100%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      }
+                                      .Nav_Icone5 img {width: 100%; height: 100%;}
+                                      .Nav_Icone5 img:hover {width: 105%; height: 110%;}
+                         .Nav_Icone6 {position: absolute;
+                                      top: 0%;
+                                      left: 57.5%;
+                                      width: 11%;
+                                      height: 100%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      }
+                                      .Nav_Icone6 img {width: 100%; height: 100%;}
+                                      .Nav_Icone6 img:hover {width: 105%; height: 110%;}
+         .Navbar_Menu {position: absolute;
+                       top: 0%;
+                       left: 25%;
+                       width: 75%;
+                       height: 100%;
+                       margin: 0%;
+                       padding: 0%;
+                       }
+                       .Navbar_Menu ul {position: absolute;
+                                        top: 0%;
+                                        left: 0%;
+                                        width: 100%; /* Define dimensão de largura da list */
+                                        height: 100%; /* Define dimensão de altura da lista */
+                                        list-style-type: none; /* Remove marcador de lista */
+                                        text-align: center; /* Alinha texto ao centro */
+                                        margin: 0%;
+                                        padding: 0%;
+                                        }
+                       .Navbar_Menu ul li {position: relative;
+                                           top: 16%;
+                                           width: 100%;
+                                           height: 100%;
+                                           display: inline;
+                                           font-size: 120%;
+                                           margin: 0% 0% 0% 0%;
+                                           padding: 2% 3% 0.6% 3%;
+                                           transition: background-color 1s;
+                                           }        
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* HEADER */
+
+.Header_Cabecalho {position: absolute;
+	                 top: 2.4%;
+	                 left: 0%;
+	                 width: 100%;
+	                 height: 11%;
+	                 margin: 0%;
+	                 padding: 0%;
+	                 background-image: linear-gradient(to right, #FF8608, #FFFF0D); /* Gradiente para a direita entre cores A e B */
+                   }
+                   .Header_Logotipo {position: absolute;
+                                     top: 0%;
+                                     left: 5%;
+                                     width: 25%;
+                                     height: 100%;
+                                     margin: 0%;
+                                     padding: 0%;
+                                     }
+                                     .Header_Logotipo img {width: 100%; height: 100%;}
+                                     .Header_Logotipo img:hover {width: 105%; height: 110%;}
+                   .Header_Animacao {position: absolute;
+                                     top: 0%;
+                                     left: 55%;
+                                     width: 44%;
+                                     height: 98%;
+                                     margin: 0%;
+                                     padding: 0%;
+                                     }
+                                     .Header_Animacao img {width: 95%; height: 100%;}
+                                     .Header_Animacao img:hover {width: 105%; height: 120%;}
+                                     .Header_Animacao1 {position: absolute;
+                                                        top: 0%;
+                                                        left: 0%;
+                                                        width: 19.5%;
+                                                        height: 100%;
+                                                        margin: 0%;
+                                                        padding: 0%;
+                                                        }
+                                     .Header_Animacao2 {position: absolute;
+                                                        top: 0%;
+                                                        left: 20%;
+                                                        width: 19.5%;
+                                                        height: 100%;
+                                                        margin: 0%;
+                                                        padding: 0%;
+                                                        }
+                                     .Header_Animacao3 {position: absolute;
+                                                        top: 0%;
+                                                        left: 40%;
+                                                        width: 19.5%;
+                                                        height: 100%;
+                                                        margin: 0%;
+                                                        padding: 0%;
+                                                        }
+                                     .Header_Animacao4 {position: absolute;
+                                                        top: 0%;
+                                                        left: 60%;
+                                                        width: 19.5%;
+                                                        height: 100%;
+                                                        margin: 0%;
+                                                        padding: 0%;
+                                                        }
+                                     .Header_Animacao5 {position: absolute;
+                                                        top: 0%;
+                                                        left: 80%;
+                                                        width: 19.5%;
+                                                        height: 100%;
+                                                        margin: 0%;
+                                                        padding: 0%;
+                                                        }
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* SECTION */
+
+.Section_Manchete {position: absolute;
+                   top: 13.6%;
+                   left: 0%;
+                   width: 100%;
+                   height: 29%;
+                   margin: 0%;
+                   padding: 0%;
+                   background-image: linear-gradient(to right, #FF8608, #FFFF0D); /* Gradiente para a direita entre cores A e B */
+                   }
+                   .Section_Manchete img {width: 100%;
+                                          height: 100%;
+                                          }
+                   .Section_Manchete img:hover {position: absolute;
+                                                top: -5%;
+                                                width: 105%;
+                                                height: 105%;
+                                                }
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ARTICLE */
+
+.Article_Conteudo {position: absolute;
+	                 top: 42.8%;
+	                 left: 0%;
+	                 width: 100%;
+	                 height: 50%;
+	                 margin: 0%;
+	                 padding: 0%;
+	                 background-image: linear-gradient(to right, #FF8608, #FFFF0D); /* Gradiente para a direita entre cores A e B */
+                   }
+                   .Article1 {position: absolute;
+                              top: 5%;
+                              left: 5%;
+                              width: 90%;
+                              height: 90%;
+                              margin: 0%;
+                              padding: 0%;
+                              color: #FFFAFA;
+                              }
+                              #Article1_1 {position: absolute;
+                                           top: 0%;
+                                           left: 0%;
+                                           width: 100%;
+                                           height: 50%;
+                                           margin: 0%;
+                                           padding: 0%;
+                                           }
+                                           #Article1_1_1 {position: absolute;
+                                                          top: 0%;
+                                                          left: 0%;
+                                                          width: 32.5%;
+                                                          height: 100%;
+                                                          margin: 0%;
+                                                          padding: 0%;
+                                                          }
+                                                          #Article1_1_1_1 {position: absolute;
+                                                                           top: 0%;
+                                                                           width: 98.3%;
+                                                                           height: 75%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           border: 3px solid #FF8608;
+                                                                           }
+                                                                           #Article1_1_1_1 img {width:100%; height:100%;}
+                                                                           #Article1_1_1_1 img:hover {width:105%; height:105%;}
+                                                          #Article1_1_1_2 {position: absolute;
+                                                                           top: 76%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 90%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_1_1_2 h1 {position: absolute;
+                                                                                               top: 15%;
+                                                                                               left: 15%;
+                                                                                               margin: 0%;
+                                                                                               padding: 0%;
+                                                                                               }                    
+                                                          #Article1_1_1_3 {position: absolute;
+                                                                           top: 87%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 70%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_1_1_3 p {position: absolute;
+                                                                                              top: 0%;
+                                                                                              left: 20%;
+                                                                                              margin: 0%;
+                                                                                              padding: 0%;
+                                                                                              }
+                                           #Article1_1_2 {position: absolute;
+                                                          top: 0%;
+                                                          left: 33.75%;
+                                                          width: 32.5%;
+                                                          height: 100%;
+                                                          margin: 0%;
+                                                          padding: 0%;
+                                                          }
+                                                          #Article1_1_2_1 {position: absolute;
+                                                                           top: 0%;
+                                                                           width: 98.3%;
+                                                                           height: 75%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           border: 3px solid #FF8608;
+                                                                           }
+                                                                           #Article1_1_2_1 img {width:100%; height:100%;}
+                                                                           #Article1_1_2_1 img:hover {width:105%; height:105%;}
+                                                          #Article1_1_2_2 {position: absolute;
+                                                                           top: 76%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 90%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_1_2_2 h1 {position: absolute;
+                                                                                               top: 15%;
+                                                                                               left: 22%;
+                                                                                               margin: 0%;
+                                                                                               padding: 0%;
+                                                                                               }        
+                                                          #Article1_1_2_3 {position: absolute;
+                                                                           top: 87%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 70%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_1_2_3 p {position: absolute;
+                                                                                              top: 0%;
+                                                                                              left: 25%;
+                                                                                              margin: 0%;
+                                                                                              padding: 0%;
+                                                                                              }
+                                           #Article1_1_3 {position: absolute;
+                                                          top: 0%;
+                                                          left: 67.5%;
+                                                          width: 32.5%;
+                                                          height: 100%;
+                                                          margin: 0%;
+                                                          padding: 0%;
+                                                          }
+                                                          #Article1_1_3_1 {position: absolute;
+                                                                           top: 0%;
+                                                                           width: 98.3%;
+                                                                           height: 75%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           border: 3px solid #FF8608;
+                                                                           }
+                                                                           #Article1_1_3_1 img {width:100%; height:100%;}
+                                                                           #Article1_1_3_1 img:hover {width:105%; height:105%;}
+                                                          #Article1_1_3_2 {position: absolute;
+                                                                           top: 76%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 90%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_1_3_2 h1 {position: absolute;
+                                                                                               top: 15%;
+                                                                                               left: 22%;
+                                                                                               margin: 0%;
+                                                                                               padding: 0%;
+                                                                                               } 
+                                                          #Article1_1_3_3 {position: absolute;
+                                                                           top: 87%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 70%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_1_3_3 p {position: absolute;
+                                                                                              top: 0%;
+                                                                                              left: 22.5%;
+                                                                                              margin: 0%;
+                                                                                              padding: 0%;
+                                                                                              }
+                              #Article1_2 {position: absolute;
+                                           top: 50%;
+                                           left: 0%;
+                                           width: 100%;
+                                           height: 50%;
+                                           margin: 0%;
+                                           padding: 0%;
+                                           }
+                                           #Article1_2_1 {position: absolute;
+                                                          top: 0%;
+                                                          left: 0%;
+                                                          width: 32.5%;
+                                                          height: 100%;
+                                                          margin: 0%;
+                                                          padding: 0%;
+                                                          }
+                                                          #Article1_2_1_1 {position: absolute;
+                                                                           top: 0%;
+                                                                           width: 98.3%;
+                                                                           height: 75%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           border: 3px solid #FF8608;
+                                                                           }
+                                                                           #Article1_2_1_1 img {width:100%; height:100%;}
+                                                                           #Article1_2_1_1 img:hover {width:105%; height:105%;}
+                                                          #Article1_2_1_2 {position: absolute;
+                                                                           top: 76%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 90%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_2_1_2 h1 {position: absolute;
+                                                                                               top: 15%;
+                                                                                               left: 22%;
+                                                                                               margin: 0%;
+                                                                                               padding: 0%;
+                                                                                               } 
+                                                          #Article1_2_1_3 {position: absolute;
+                                                                           top: 87%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 70%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_2_1_3 p {position: absolute;
+                                                                                              top: 0%;
+                                                                                              left: 21%;
+                                                                                              margin: 0%;
+                                                                                              padding: 0%;
+                                                                                              }
+                                           #Article1_2_2 {position: absolute;
+                                                          top: 0%;
+                                                          left: 33.75%;
+                                                          width: 32.5%;
+                                                          height: 100%;
+                                                          margin: 0%;
+                                                          padding: 0%;
+                                                          }
+                                                          #Article1_2_2_1 {position: absolute;
+                                                                           top: 0%;
+                                                                           width: 98.3%;
+                                                                           height: 75%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           border: 3px solid #FF8608;
+                                                                           }
+                                                                           #Article1_2_2_1 img {width:100%; height:100%;}
+                                                                           #Article1_2_2_1 img:hover {width:105%; height:105%;}
+                                                          #Article1_2_2_2 {position: absolute;
+                                                                           top: 76%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 90%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_2_2_2 h1 {position: absolute;
+                                                                                               top: 15%;
+                                                                                               left: 22.5%;
+                                                                                               margin: 0%;
+                                                                                               padding: 0%;
+                                                                                               } 
+                                                          #Article1_2_2_3 {position: absolute;
+                                                                           top: 87%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 70%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_2_2_3 p {position: absolute;
+                                                                                              top: 0%;
+                                                                                              left: 24.5%;
+                                                                                              margin: 0%;
+                                                                                              padding: 0%;
+                                                                                              }
+                                           #Article1_2_3 {position: absolute;
+                                                          top: 0%;
+                                                          left: 67.5%;
+                                                          width: 32.5%;
+                                                          height: 100%;
+                                                          margin: 0%;
+                                                          padding: 0%;
+                                                          }
+                                                          #Article1_2_3_1 {position: absolute;
+                                                                           top: 0%;
+                                                                           width: 98.3%;
+                                                                           height: 75%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           border: 3px solid #FF8608;
+                                                                           }
+                                                                           #Article1_2_3_1 img {width:100%; height:100%;}
+                                                                           #Article1_2_3_1 img:hover {width:105%; height:105%;}
+                                                          #Article1_2_3_2 {position: absolute;
+                                                                           top: 76%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 90%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_2_3_2 h1 {position: absolute;
+                                                                                               top: 15%;
+                                                                                               left: 22.5%;
+                                                                                               margin: 0%;
+                                                                                               padding: 0%;
+                                                                                               } 
+                                                          #Article1_2_3_3 {position: absolute;
+                                                                           top: 87%;
+                                                                           width: 100%;
+                                                                           height: 10%;
+                                                                           margin: 0%;
+                                                                           padding: 0%;
+                                                                           text-align: center;
+                                                                           font-size: 70%;
+                                                                           background-color: #FF8608;
+                                                                           }
+                                                                           #Article1_2_3_3 p {position: absolute;
+                                                                                              top: 0%;
+                                                                                              left: 22.5%;
+                                                                                              margin: 0%;
+                                                                                              padding: 0%;
+                                                                                              }
+
+#Article_Empresas1 {position: absolute;
+                    top: 1%;
+                    left: 2%;
+                    width: 96%;
+                    height: 8%;
+                    margin: 0%;
+                    padding: 0%;
+                    text-align: center;
+                    font-size: 150%;
+                    background-color: #FF8608;
+                    }
+                    #Article_Empresas1 h1 {position: absolute;
+                                           top: 9%;
+                                           left: 38%;
+                                           margin: 0%;
+                                           padding: 0%;
+                                           }
+#Article_Empresas2 {position: absolute;
+                    top: 10%;
+                    left: 2%;
+                    width: 30%;
+                    height: 54%;
+                    margin: 0%;
+                    padding: 0%;
+                    text-align: center;
+                    }
+                    #Article_Empresas2 img {width: 100%; height: 100%;}
+                    #Article_Empresas2 img:hover {width:180%; height: 180%;}
+#Article_Empresas3 {position: absolute;
+                    top: 10%;
+                    left: 33%;
+                    width: 65%;
+                    height: 54%;
+                    margin: 0%;
+                    padding: 0%;
+                    background-color: #FF8608;
+                    }                    
+                    #Article_Empresas3 p {padding: 1%;
+                                          }
+#Article_Empresas4 {position: absolute;
+                    top: 65%;
+                    left: 2%;
+                    width: 96%;
+                    height: 34%;
+                    margin: 0%;
+                    padding: 0%; 
+                    }
+                    #Article_Empresas4_1 {position: absolute;
+                                          top: 0%;
+                                          left: 0.5%;
+                                          width: 19%;
+                                          height: 100%;
+                                          margin: 0%;
+                                          padding: 0%;
+                                          text-align: center;                                          
+                                          }
+                                          #Article_Empresas4_1 img {width: 100%; height: 100%;}
+                                          #Article_Empresas4_1 img:hover {width: 170%; height: 170%;} 
+                    #Article_Empresas4_2 {position: absolute;
+                                          top: 0%;
+                                          left: 20.5%;
+                                          width: 19%;
+                                          height: 100%;
+                                          margin: 0%;
+                                          padding: 0%;
+                                          text-align: center;                                          
+                                          }
+                                          #Article_Empresas4_2 img {width: 100%; height: 100%;}
+                                          #Article_Empresas4_2 img:hover {width: 170%; height: 170%;}                                          
+                    #Article_Empresas4_3 {position: absolute;
+                                          top: 0%;
+                                          left: 40.5%;
+                                          width: 19%;
+                                          height: 100%;
+                                          margin: 0%;
+                                          padding: 0%;
+                                          text-align: center;                                          
+                                          }
+                                          #Article_Empresas4_3 img {width: 100%; height: 100%;}
+                                          #Article_Empresas4_3 img:hover {width: 170%; height: 170%;}                                          
+                    #Article_Empresas4_4 {position: absolute;
+                                          top: 0%;
+                                          left: 60.5%;
+                                          width: 19%;
+                                          height: 100%;
+                                          margin: 0%;
+                                          padding: 0%;
+                                          text-align: center;                                        
+                                          }
+                                          #Article_Empresas4_4 img {width: 100%; height: 100%;}
+                                          #Article_Empresas4_4 img:hover {width: 170%; height: 170%;}                                          
+                    #Article_Empresas4_5 {position: absolute;
+                                          top: 0%;
+                                          left: 80.5%;
+                                          width: 19%;
+                                          height: 100%;
+                                          margin: 0%;
+                                          padding: 0%;
+                                          text-align: center;
+                                          }   
+                                          #Article_Empresas4_5 img {width: 100%; height: 100%;}
+                                          #Article_Empresas4_5 img:hover {width: 170%; height: 170%;}                   
+
+#Article_Espaco {position: absolute;
+                  top: 0%;
+                  left: 0%;
+                  width: 100%;
+                  height: 8%;
+                  margin: 0%;
+                  padding: 0%;
+                  text-align: center;
+                  font-size: 150%;
+                  background-color: #FF8608;
+                  }
+                  #Article_Espaco h1 {position: absolute;
+                                       top: -40%;
+                                       left: 44%;}
+#Article_Espaco1 {position: absolute;
+                  top: 10%;
+                  left: 0%;
+                  width: 50%;
+                  height: 90%;
+                  margin: 0%;
+                  padding: 0%;
+                  text-align: center;
+                  }
+                  #Article_Espaco1_1 {position: absolute;
+                                      top: 0%;
+                                      left: 0%;
+                                      width: 99.5%;
+                                      height: 46%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      }
+                                      #Article_Espaco1_1 img {width: 100%; height: 100%;}
+                                      #Article_Espaco1_1 img:hover {width: 110%; height: 110%;}
+                  #Article_Espaco1_2 {position: absolute;
+                                      top: 50%;
+                                      left: 0%;
+                                      width: 99.5%;
+                                      height: 7%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      background-color: #FF8608;
+                                      }
+                                      #Article_Espaco1_2 h1 {position: absolute;
+                                                             top: -35%;
+                                                             left: 20%;
+                                                             padding: 0%;
+                                                             font-size: 170%;
+                                                              }
+                  #Article_Espaco1_3 {position: absolute;
+                                      top: 58%;
+                                      left: 0%;
+                                      width: 99.5%;
+                                      height: 45%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      background-color: #FF8608;
+                                      }     
+                                      .Article_Espaco1_3 p {position: absolute;
+                                                            top: 0%;
+                                                            margin: 0%;
+                                                            padding: 0% 5% 0% 5%;
+                                                            }
+#Article_Espaco2 {position: absolute;
+                  top: 10%;
+                  left: 50%;
+                  width: 50%;
+                  height: 90%;
+                  margin: 0%;
+                  padding: 0%;
+                  text-align: center;
+                  }
+                  #Article_Espaco2_1 {position: absolute;
+                                      top: 0%;
+                                      right: 0%;
+                                      width: 99.5%;
+                                      height: 46%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      }
+                                      #Article_Espaco2_1 img {width: 100%; height: 100%;} 
+                                      #Article_Espaco2_1 img:hover {width: 110%; height: 110%;}                                                
+                  #Article_Espaco2_2 {position: absolute;
+                                      top: 50%;
+                                      right: 0%;
+                                      width: 99.5%;
+                                      height: 7%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      background-color: #FF8608;
+                                      }
+                                      #Article_Espaco2_2 h1 {position: absolute;
+                                                             top: -35%;
+                                                             left: 20%;
+                                                             padding: 0%;font-size: 170%;
+                                                             }
+                  #Article_Espaco2_3 {position: absolute;
+                                      top: 58%;
+                                      right: 0%;
+                                      width: 99.5%;
+                                      height: 45%;
+                                      margin: 0%;
+                                      padding: 0%;
+                                      background-color: #FF8608;
+                                      }  
+                                      .Article_Espaco2_3 p {position: absolute;
+                                                            top: 0%;
+                                                            margin: 0%;
+                                                            padding: 0% 5% 0% 5%;
+                                                            }
+
+#Article_Servico {position: absolute;
+                  top: 0%;
+                  left: 0%;
+                  width: 100%;
+                  height: 8%;
+                  margin: 0%;
+                  padding: 0%;
+                  text-align: center;
+                  font-size: 150%;
+                  background-color: #FF8608;
+                  }
+                  #Article_Servico h1 {position: absolute;
+                                    top: -40%;
+                                    left: 44%;}
+#Article_Servico1 {position: absolute; 
+                   top: 8.5%;
+                   left: 0%;
+                   width: 33%;
+                   height: 45.5%;
+                   margin: 0%;
+                   padding: 0%;
+                   }
+                   #Article_Servico1 img {width: 100%;}
+                   #Article_Servico1 img:hover {width: 110%; height: 110%;}
+#Article_Servico2 {position: absolute; 
+                   top: 8.5%;
+                   left: 33.5%;
+                   width: 33%;
+                   height: 45.5%;
+                   margin: 0%;
+                   padding: 0%;
+                   }
+                   #Article_Servico2 img {width: 100%;}
+                   #Article_Servico2 img:hover {width: 110%; height: 110%;}
+#Article_Servico3 {position: absolute; 
+                   top: 8.5%;
+                   right: 0%;
+                   width: 33%;
+                   height: 45.5%;
+                   margin: 0%;
+                   padding: 0%;
+                   }
+                   #Article_Servico3 img {width: 100%;}
+                   #Article_Servico3 img:hover {width: 110%; height: 110%;}
+#Article_Servico4 {position: absolute; 
+                   top: 54.5%;
+                   left: 0%;
+                   width: 33%;
+                   height: 45.5%;
+                   margin: 0%;
+                   padding: 0%;
+                   }
+                   #Article_Servico4 img {width: 100%;}
+                   #Article_Servico4 img:hover {width: 110%; height: 110%;}
+#Article_Servico5 {position: absolute; 
+                   top: 54.5%;
+                   left: 33.5%;
+                   width: 33%;
+                   height: 45.5%;
+                   margin: 0%;
+                   padding: 0%;
+                   }
+                   #Article_Servico5 img {width: 100%;}
+                   #Article_Servico5 img:hover {width: 110%; height: 110%;}
+#Article_Servico6 {position: absolute; 
+                   top: 54.5%;
+                   right: 0%;
+                   width: 33%;
+                   height: 45.5%;
+                   margin: 0%;
+                   padding: 0%;
+                   }
+                   #Article_Servico6 img {width: 100%;}
+                   #Article_Servico6 img:hover {width: 110%; height: 110%;}
+
+#Contato_Formulario {position: absolute;
+                     top: 3%;
+                     left: 20%;
+                     width: 60%;
+                     height: 89%;
+                     margin: 0%;
+                     padding: 0%;
+                     text-align: center;
+                     background-color: #FF8608;
+                     border: 1px solid #FFFAFA;
+                     }
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* FOOTER */
+
+.Footer {position: absolute;
+	       bottom: 0%;
+	       left: 0%;
+	       width: 100%;
+	       height: 7%;
+	       margin: 0%;
+	       padding: 0%;
+	       background-image: linear-gradient(to right, #FF8608, #FFFF0D); /* Gradiente para a direita entre cores A e B */	 
+         }
+         .Footer1_5 {absolute: position;
+                     top: 0%;
+                     left: 15%;
+                     width: 30%;
+                     height: 100%;
+                     margin: 0%;
+                     padding: 0%;
+                     }
+                     .Footer1_5 img {width: 100%;
+                                     height: 100%;
+                                     }
+         .Footer1_1 {position: absolute;
+         	         top: 8%;
+         	         left: 2%;
+         	         width: 30%;
+         	         height: 75%;
+         	         margin: 0%;
+         	         padding: 0%;
+                     }
+                     .Footer1_1_1 {position: absolute;
+                     	           top: 0%;
+                     	           left: 0%;
+                     	           width: 49%;
+                     	           height: 100%;  
+                     	           margin: 0%;
+                     	           padding: 0%;                   	
+                                   }
+                     .Footer1_1_2 {position: absolute;
+                     	           top: 0%;
+                     	           right: 0%;
+                     	           width: 48%;
+                     	           height: 100%;
+                     	           margin: 0%;
+                     	           padding: 0%;
+                                   }
+                     .Footer1_1 p {font-size: 62%;
+                     	           color: #FFFAFA;
+                                   }
+         .Footer1_6 {position: absolute;
+                     top: 2%;
+                     right: 0%;
+                     width: 20%;
+                     height: 100%;
+                     margin: 0%;
+                     padding: 0%;
+                     }
+                     .Footer1_6 img {width: 100%;
+                                     height: 100%;
+                                     }
+         .Footer1_2 {position: absolute;
+         	           top: 22%;
+         	           right: 0%;
+         	           width: 25%;
+         	           height: 60%;
+         	           margin: 0%;
+         	           padding: 0%;
+                     }
+                     .Footer_Icone1{position: absolute;
+                                    top: 0%;
+                                    right: 31%;
+                                    width: 10%;
+                                    height: 50%;
+                                    }
+                     .Footer_Icone2{position: absolute;
+                                    top: 0%;
+                                    right: 42%;
+                                    width: 10%;
+                                    height: 50%;
+                                    }
+                     .Footer_Icone3{position: absolute;
+                                    top: 0%;
+                                    right: 53%;
+                                    width: 10%;
+                                    height: 50%;
+                                    }
+                     .Footer_Icone4{position: absolute;
+                                    top: 50%;
+                                    right: 31%;
+                                    width: 10%;
+                                    height: 50%;
+                                    }
+                     .Footer_Icone5{position: absolute;
+                                    top: 50%;
+                                    right: 42%;
+                                    width: 10%;
+                                    height: 50%;
+                                    }
+                     .Footer_Icone6{position: absolute;
+                                    top: 50%;
+                                    right: 53%;
+                                    width: 10%;
+                                    height: 50%;
+                                    }
+         .Footer1_3 {position: absolute;
+         	           top: 34%;
+         	           left: 40%;
+         	           width: 20%;
+         	           height: 50%;
+         	           margin: 0%;
+         	           padding: 0%;
+                     }
+         .Footer1_4 {position: absolute;
+                     top: 0%;
+                     left: 37.5%;
+                     width: 25%;
+                     height: 100%;
+                     margin: 0%;
+                     padding: 0%;
+                     }
+                     .Footer1_4 img {width: 100%;
+                                     height: 100%;
+                                     }
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */

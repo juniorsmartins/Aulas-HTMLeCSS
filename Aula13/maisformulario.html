@@ -1,0 +1,82 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+
+  <head>
+    <title> Exercício para aprendizagem </title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Junior Martins - https://juniormartins.46graus.com/"/> 
+    <meta name="description" content="Espaço para treino e aprendizagem de programação"/> 
+    <meta name="keywords" content="aula, treino, aprendizagem, exercício, programação"/> 
+    <meta http-equiv="refresh" content="55"/> 
+  </head>
+  <body>
+
+  <form action="cadastro.php" method="post">
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+      Nome: <br>
+      <input type="text" name="nome" placeholder="digite teu nome" required autofocus><br>
+      E-mail: <br>
+      <input type="email" name="email" autocomplete="on" required> <br>
+      Senha: <br>
+      <input type="password" name="senha" maxlength="10"><br>
+      Time: <br>
+      <input type="radio" name="time" value="internacional" checked>Internacional<br>
+      <input type="radio" name="time" value="gremio">Grêmio<br>
+      <input type="radio" name="time" value="juventude">Juventude<br>
+      <input type="submit" name="btn-enviar" value="Enviar"> <br>
+      Cores: <br>
+      <input type="checkbox" name="cores" value="vermelho">Vermelho<br>
+      <input type="checkbox" name="cores" value="azul">Azul<br>
+      <input type="checkbox" name="cores" value="verde" checked>Verde<br>
+      Quantidade: <br><br>
+      <input type="number" name="quantidade" min="0" max="500" step="10"><br>
+      <input type="range" name="quantidade"><br>
+      Cor: <br>
+      <input type="color" name="cor"><br>
+      Imagem: <br><br>
+      <input type="file" name="imagem"><br>
+      URL: <br>
+      <input type="url" name="site"><br>
+      Search: <br>
+      <input type="search" name="pesquisa"><br>
+      Telefone: <br>
+      <input type="tel" name="telefone"><br>
+      Data: <br>
+      <input type="date" name="data" min="1900-01-01" max="2100-12-31"><br>
+      Hora: <br>
+      <input type="time" name="hora"><br>
+      Mês e Ano:<br>
+      <input type="month" name="mes-ano"><br>
+      Semana: <br>
+      <input type="week" name="semana"><br>
+      Data e Hora:<br>
+      <input type="datetime-local" name="data-e-hora"><br>
+      Mensagem: <br>
+      <textarea name="mensagem" rows="5" cols="30" spellcheck="false"></textarea> <br><br>
+      <button type="button">Clique-me!</button> <br>
+      Escolha seu veículo:<br>
+      <select name="veiculo">
+        <optgroup label="carros">
+          <option value="camaro">Camaro</option>
+          <option value="hilux" selected>Hilux</option>
+        </optgroup>
+        <optgroup label="motos">
+          <option value="pop100">Pop 100</option>
+          <option value="zig-50">Zig-50</option>  
+        </optgroup><br>
+        <br><br>
+      </select> <br>
+      Escolha seu curso: <br>
+      <input name="cursos" list="lista-cursos">
+        <datalist id="lista-cursos">
+          <option value="HTML5">
+          <option value="CSS3">
+          <option value="JavaScript">
+        </datalist> <br>
+    </fieldset>
+  </form>
+
+  </body>
+</html>

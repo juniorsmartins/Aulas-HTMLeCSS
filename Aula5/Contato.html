@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<HTML lang="PT-BR"> <!-- Define o idioma - Português do Brasil -->
+  <Head>
+    <!-- Título para o navegador -->
+    <title> Xoxo Espaço Festas - A felicidade dos filhos garantida </title>
+    <!-- Metadados para o navegador -->
+    <meta charset="UTF-8"/> <!-- Define conjunto de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Definir janela de visualização para site ter boa aparência nos dispositivos -->
+    <meta name="author" content="Junior Martins - https://juniormartins.46graus.com/"/> <!-- Define o autor do código da página --> 
+    <meta name="description" content="Site comercial de empresa na área de locação de espaço para Festa Infantil"/> <!-- Define descrição da página web -->
+    <meta name="keywords" content="festa infantil, crianças, aluguel, locação, espaço, espaços, aniversário"/> <!-- Define palavras-chave da página -->
+    <meta http-equiv="refresh" content="55"/> <!-- Define o tempo de atualização do conteúdo - 30 segundos -->
+    <!-- Link para CSS Out-File - Cascading Style Sheets -->
+    <link rel="stylesheet" href="Estilos/Estilo.css"/>
+  </Head>
+  <Body>
+    <div class="Principal">
+
+
+      <!-- Menu de Navegação -->
+      <nav>
+        <div class="Navbar">
+          <!-- Redes Sociais no Menu -->
+          <div class="Navbar_Icones">
+            <div class="Nav_Icone1"><a href="#" target="_blank"><img src="Imagens/Logotipo/Facebook.gif" alt="Ícone do Facebook" width="75%"/></a></div>
+            <div class="Nav_Icone2"><a href="#" target="_blank"><img src="Imagens/Logotipo/Instagram.gif" alt="Ícone do Instagram" width="75%"/></a></div>
+            <div class="Nav_Icone3"><a href="#" target="_blank"><img src="Imagens/Logotipo/Twitter.gif" alt="Ícone do Twitter" width="75%"/></a></div>
+            <div class="Nav_Icone4"><a href="#" target="_blank"><img src="Imagens/Logotipo/Feed.gif" alt="Ícone de Feed" width="75%"/></a></div>
+            <div class="Nav_Icone5"><a href="#" target="_blank"><img src="Imagens/Logotipo/Pinterest.gif" alt="Ícone do Pinterest" width="75%"/></a></div>
+            <div class="Nav_Icone6"><a href="#" target="_blank"><img src="Imagens/Logotipo/Whatsapp.gif" alt="Ícone Whatsapp" width="78%"/></a></div>        
+          </div>
+          <!-- Lista Não Ordenada para gerar menu de navegação horizontal -->
+          <div class="Navbar_Menu">
+            <ul>
+              <li><a href="Home.html">HOME</a></li> 
+              <li><a href="Empresa.html">Empresa</a></li>
+              <li><a href="Espacos.html">Espaços</a></li>
+              <li><a href="Servicos.html">Serviços</a></li>
+              <li><a href="Contato.html">Contato</a></li>
+            </ul>
+          </div>
+        </div> 
+      </nav>
+
+       <!-- Cabeçalho -->
+       <header>
+         <div class="Header_Cabecalho">
+           <div class="Header_Logotipo">
+             <img src="Imagens/Logotipo/Xoxo.png" alt="Logotipo da XOXO - Um grande coração"/>
+           </div>
+           <div class="Header_Animacao">
+             <div class="Header_Animacao1">
+               <img src="Imagens/Animais1.gif" alt="Desenho de hipopótamo"/>
+             </div>
+             <div class="Header_Animacao2">
+               <img src="Imagens/Animais2.gif" alt="Desenho de girafa"/>
+             </div>
+             <div class="Header_Animacao3">
+               <img src="Imagens/Animais3.gif" alt="Desenho de elefante"/>
+             </div>
+             <div class="Header_Animacao4">
+               <img src="Imagens/Animais4.gif" alt="Desenho de leão"/>
+             </div>
+             <div class="Header_Animacao5">
+               <img src="Imagens/Animais5.gif" alt="Desenho de urso"/>
+             </div>             
+           </div>
+         </div>
+       </header>
+
+        <!-- Área de Manchete -->
+        <section>
+          <div class="Section_Manchete">
+            <img src="Imagens/Slider5.jpg" alt="Convite de aniversário da Cláudia"/>
+          </div>
+        </section>
+
+        <!-- Área de Conteúdo -->
+        <article>
+          <div class="Article_Conteudo">
+            <div class="Article1">
+              <div id="Contato_Formulario">
+                <form action="/action_page.php" method="post">
+                  <br>
+                  <h1> Formulário de Contato </h1>
+                  <br>
+                  <label for="Namec">Nome Completo:</label>
+                  <input type="text" id="Namec" name="Namec" placeholder="Digite seu nome inteiro..." maxlenght="70" size="70" autofocus><br>
+                  <br>
+                  <label for="Telefone">Telefone Fixo:</label>
+                  <input type="tel" id="Telefone" name="Telefone" placeholder="(DDD)0000-0000" maxlenght="14" size="14" autocomplete>
+                  <label for="Celular">Celular:</label>
+                  <input type="tel" id="Celular" name="Celular" placeholder="(DDD)0000-0000" maxlenght="14" size="14" autocomplete><br>
+                  <br>
+                  <label for="Email">Email:</label>
+                  <input type="email" id="Email" name="Email" placeholder="ciclano@fulano.com.br" maxlenght="50" size="50" autocomplete><br>
+                  <br>
+                  <br>
+                  <label for="Mensagem">Qual sua mensagem?</label>
+                  <br>
+                  <br>
+                  <input type="radio" id="Agendar" name="Agendar" value="Agendar">
+                  <label for="Agendar">Agendar</label>
+                  <input type="radio" id="Orcar" name="Orcar" value="Orcar">                  
+                  <label for="Orcar">Orçar</label>
+                  <input type="radio" id="Elogiar" name="Elogiar" value="Elogiar">
+                  <label for="Elogiar">Elogiar</label>
+                  <input type="radio" id="Criticar" name="Criticar" value="Criticar">
+                  <label for="Criticar">Críticar</label>
+                  <input type="radio" id="Outros" name="Outros" value="Outros">
+                  <label for="Outros">Outros</label>
+                  <br>
+                  <br>
+                  <textarea name="Mensagem" cols=80 rows=12 maxlenght=500 placeholder="Quem? O que? Quando? Onde? Por qual motivo? E como?"/></textarea>
+                  <br>
+                  <br>
+                  <input type="submit" onclick="Mensagem Enviada" value="Enviar">
+                </form>
+              <div>  
+            </div>
+          </div>
+        </article>
+        
+        <!-- Rodapé -->
+        <footer>
+          <div class="Footer">
+            <div class="Footer1_5">
+              <img src="Imagens/Placa1.png"/>
+            </div>
+            <div class="Footer1_1">
+              <div class="Footer1_1_1">
+                <hgroup>
+                  <p><b>ENDEREÇO</b></p>
+                  <p>Praça Alencastro, 4242<br>
+                  Bairro Centro - 78.000-00</p>
+                </hgroup>
+              </div>
+              <div class="Footer1_1_2">
+                <hgroup>
+                  <p><b>CONTATO</b></p>
+                  <p><a href="mailto:contatoxoxo@xoxo.com">contatoxoxo@xoxo.com</a><br>
+                  <a href="tel:65999999999">(65)99999-9999</a></p>
+                </hgroup>
+              </div>
+            </div>
+            <div class="Footer1_6">
+              <img src="Imagens/Placa3.png"/>
+            </div>
+            <div class="Footer1_2">
+              <div class="Footer_Icone1"><a href="#" target="_blank"><img src="Imagens/Logotipo/Facebook.gif" alt="Ícone do Facebook" width="100%"/></a></div>
+              <div class="Footer_Icone2"><a href="#" target="_blank"><img src="Imagens/Logotipo/Instagram.gif" alt="Ícone do Instagram" width="100%"/></a></div>
+              <div class="Footer_Icone3"><a href="#" target="_blank"><img src="Imagens/Logotipo/Twitter.gif" alt="Ícone do Twitter" width="100%"/></a></div>
+              <div class="Footer_Icone4"><a href="#" target="_blank"><img src="Imagens/Logotipo/Feed.gif" alt="Ícone de Feed" width="100%"/></a></div>
+              <div class="Footer_Icone5"><a href="#" target="_blank"><img src="Imagens/Logotipo/Pinterest.gif" alt="Ícone do Pinterest" width="100%"/></a></div>
+              <div class="Footer_Icone6"><a href="#" target="_blank"><img src="Imagens/Logotipo/Whatsapp.gif" alt="Ícone do Whatsapp" width="100%"/></a></div>
+            </div>
+            <div class="Footer1_4">
+              <img src="Imagens/Placa2.png"/>
+            </div>
+            <div class="Footer1_3">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.8934701385324!2d-56.097660785531595!3d-15.597339589173897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db1945b0f7dc1%3A0xe967dacf1293d989!2sPra%C3%A7a%20Alencastro%2C%20158%20-%20Popular%2C%20Cuiab%C3%A1%20-%20MT%2C%2078005-360!5e0!3m2!1spt-BR!2sbr!4v1594821277513!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </footer>
+  
+    </div>  
+  </Body>
+</HTML>
+
+
+

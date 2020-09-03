@@ -1,0 +1,479 @@
+/* Autor: Junior Martins */
+/* Cliente: Instituto Mato-grossense de Tênis - IMT */
+/* Objetivo: página institucional de uma entidade sem fins lucrativos da área esportiva */
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ESTILOS PARA TODAS AS PÁGINAS - GLOBAL */
+
+#Base_Capa /* Tabuleiro suporte da capa */
+   {background-color: #ffeee6;
+    position: absolute;
+    top: 0%;
+    left: 10.5%;
+    width: 1200px;
+    height: 2000px;
+   } 
+
+.Base_Interna /* Tabuleiro suporte das páginas internas */
+   {background-color: #ffeee6;
+    position: absolute;
+    top: 0%;
+    left: 10.5%;
+    width: 1200px;
+    height: 1200px;
+   }
+
+body {font-family: arial, helvetica, sans-serif;} /* Define o tipo de fonte para todas as tags do site */
+
+h1 {font-size: 24px;
+    text-align: center; /* H alinhado ao centro */
+    padding-top: 2%; /* Define o espaço entre o título e topo da caixa */
+    font-style: bold; /* Todos os títulos H1 em negrito */
+   }
+
+h2 {font-size: 18px;
+    text-align: center; /* H alinhado ao centro */
+    padding-top: 0.2%; /* Define o espaço entre o segundo título e a caixa acima */
+    font-style: italic; /* Todos os títulos H2 em itálico */
+   }
+
+h3, h4, h5, h6 {font-size: 16px;
+   padding-top: 0.1%; /* Define o espaço entre o segundo título e a caixa acima */
+   padding-bottom: 0.1%;
+   text-align: center; /* H alinhado ao centro */
+  }
+
+p {font-size: 14px; /* Tamanho das letras do texto */
+   text-align: justify; /* Alinhamento justificado do texto */
+   vertical-align: baseline; /* Alinhamento vertical do texto - está no default baseline (definição padrão) */
+   text-indent: 2%; /* A primeira linha de um parágrafo ganha tab */
+   letter-spacing: normal; /* Serve para alterar o espaço entre as letras - mas mantém o default (definição padrão) */
+   padding-left: 3%; /* Define o espaço esquerdo entre o texto e a caixa */
+   padding-right: 3%; /* Define o espaço direito entre o texto e a caixa */
+   padding-top: 0.4%; 
+   padding-bottom: 0.1%;
+  }
+
+ul {list-style: none; /* Retira o marcador da lista */  
+    font-style: normal; /* Altera a inclinação da fonte (normal, italic ou oblique) */
+    font-weight: bold; /* Altera o peso da fonte - Negrito (normal, bold) */
+    text-align: left; /* Texto alinhado a esquerda */
+   }
+
+a:link, a:visited 
+   {color: white;
+    text-decoration: none;
+   }
+   a:hover
+      {text-decoration: underline;
+      }
+
+figure img {margin-left: 0px;
+     margin: 5px 10px;
+     padding-left: 0px;
+     border: 5px solid #ccc;    
+    }
+
+figcaption {font-style: italic;
+            text-align: bottom;
+           }
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ESTILOS PARA CABEÇALHO - HEADER */
+
+.Header_Global /* Topo de todas as páginas */
+   {background-color: #ff7733;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 1150px;
+    height: 200px;    
+   }
+   .Header1_Global 
+      {width: 100%;
+       height: 100%;
+       position: absolute;
+       top: 0%;
+       left: 0%;
+      }
+      .Header1_Global img /* Instruções para a foto do cabeçalho */
+         {width: 100%;
+          position: absolute;
+          top: 0%;
+          left: 0%;
+         }
+      .Header2_Global 
+         {width: 30%;
+          height: 100%;
+          position: absolute;
+          top: 0%;
+          left: 0%;
+         }
+         .Header2_Global img /* Instruções para a sombra do logotipo do IMT */
+            {width: 70%;
+             position: absolute;
+             top: 2.4%;
+             left: 8.4%;
+            }
+         .Header2_1_Global
+            {width: 30%;
+             height: 100%;
+             position: absolute;
+             top: 0%;
+             left: 0%;
+            }
+            .Header2_1_Global img /* Instruções para o logotipo do IMT */
+               {width: 70%;
+                position: absolute;
+                top: 2%;
+                left: 8%;
+               }
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ESTILOS PARA MENU - NAV */
+
+.Menu_Global /* Área de menu das páginas */
+   {background-color: #ff7733;
+    position: absolute;
+    top: 202px;
+    left: 25px;
+    width: 1150px; /* Largura do Menu */
+    height: 40px; /* Altura do Menu */
+    font-size: 110%; /* Tamanho da fonte */
+   }
+   .Menu_Global ul 
+      {position: absolute; /* Determina uma posição para a lista dentro da área de menu */
+       top: -15%;
+       left: 3%;
+       width: 90%;
+       height: 90%;
+      }
+      .Menu_Global ul li 
+         {display: inline; /* Define elemento como parte de um bloco - coloca a lista na horizontal */  
+          vertical-align: top;
+          border-left-style: solid; /* Define a borda esquerda dos itens da lista como sólida */
+          border-top-width: 0px;
+          border-bottom-width: 0px;
+          border-left-width: 1px;
+          border-right-width: 0px;
+          border-left-color: white; /* Define a cor da borda esquerda */
+          border-right-color: white; /* Define a cor da borda direita */
+          padding-top: 0.9%; 
+          padding-bottom: 0.7%;
+          padding-left: 2%;
+          padding-right: 2%;
+         }
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ESTILOS PARA A MANCHETE DA CAPA - SECTION */
+
+#Manchete_Capa /* Manchete da capa do site */
+   {background-color: #ffbb99; 
+    position: absolute;
+    top: 245px;
+    left: 5px;
+    width: 1190px;
+    height: 453px;
+   }
+   #Manchete_Capa img 
+      {width: 100%;
+       position: absolute;
+       top: 0px;
+       left: 0px;
+      }
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ESTILOS PARA CONTEÚDO - ARTICLE */
+
+#Conteudo_Capa /* Área principal de conteúdo - Dividida em duas partes */
+   {background-color: #ffbb99;
+    position: absolute;
+    top: 701px;
+    left: 25px;
+    width: 915px;
+    height: 1140px;
+   }
+   #Conteudo1_Capa
+      {background-color: #b33c00;
+       position: absolute;
+       top: 0.6%;
+       left: 1%;
+       width: 98%;
+       height: 49%;
+      }
+   #Conteudo2_Capa
+      {background-color: #b33c00;
+       position: absolute;
+       top: 50.2%;
+       left: 1%;
+       width: 98%;
+       height: 49%;
+      }
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ESTILOS PARA CONTEÚDO SECUNDÁRIO/LATERAL - ASIDE - ÁREA PUBLICITÁRIA */
+
+#Aside_Capa /* Espaço publicitário lateral */
+   {background-color: #ffbb99;
+    position: absolute;
+    top: 701px;
+    right: 25px;
+    width: 230px;
+    height: 1140px;
+   }
+   .Aside_Publicidade
+      {float: left;
+       width: 100%;
+       height: 100px;
+      }
+      .Aside_Publicidade h1
+         {color: white;
+          margin: 0px;
+          padding: 0px;
+          text-align: center; 
+         }
+
+      
+
+
+
+
+/*
+   #Patrocinador1Capa_Aside
+      {position: absolute;
+       top: 0%;
+       width: 100%;
+       height: 25%;
+      }
+      #Patrocinador1Capa_Aside img
+         {position: absolute;
+          top: 15%;
+          left: 3%;
+          width: 94%;}
+
+   #Patrocinador2Capa_Aside
+      {position: absolute;
+       top: 25%;
+       width: 100%;
+       height: 25%;
+      }
+      #Patrocinador2Capa_Aside img
+         {position: absolute;
+          top: 0%;
+          left: 3%;
+          width: 94%;}
+
+   #Patrocinador3Capa_Aside 
+      {position: absolute;
+       top: 50%;
+       width: 100%;
+       height: 25%;
+      }
+      #Patrocinador3Capa_Aside img
+         {position: absolute;
+          top: 1%;
+          left: 3%;
+          width: 94%;}
+
+   #Patrocinador4Capa_Aside
+      {position: absolute;
+       top: 75%;
+       width: 100%;
+       height: 25%;
+      }
+      #Patrocinador4Capa_Aside img
+         {position: absolute;
+          bottom: 5%;
+          left: 3%;
+          width: 94%;}
+*/
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ESTILOS PARA RODAPÉ - FOOTER */
+
+.Footer_Global /* Definições da área de rodapé */
+   {background-color: #ff7733;
+    position: absolute;
+    bottom: 3px;
+    left: 25px;
+    width: 1150px;
+    height: 153px;
+   }
+   .Footer1_Global /* Rodapé subdividido em três áreas - Área 1 */
+      {position: absolute;
+       top: 0px;
+       width: 250px;
+       height: 150px;
+       color: white;
+      }
+      .Footer1_Global p
+         {position: absolute;
+          top: 40px;
+          text-align: center; 
+          margin-left: 15px;
+         }
+   .Footer2_Global /* Rodapé subdividido em três áreas - Área 2 */
+      {position: absolute;
+       top: 0px;
+       left: 250px;
+       width: 325px;
+       height: 150px;
+      }
+      .Footer2_Global iframe
+         {position: absolute;
+          top: 12px;
+          left: 0px;
+          width: 315px;
+          height: 130px;
+         }
+   .Footer3_Global /* Rodapé subdividido em três áreas - Área 3 */
+      {position: absolute;
+       top: 16px;
+       left: 575px;
+       width: 560px;
+       height: 125px;
+      }
+      .Footer3_Global img
+         {width: 186px;
+          height: 125px;
+         }
+      .Footer3_1_Global
+         {position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 186px;           
+          height: 120px;
+         }
+      .Footer3_2_Global
+         {position: absolute;
+          top: 0px;
+          left: 187.5px;
+          width: 186px; 
+          height: 120px;
+         }
+      .Footer3_3_Global
+         {position: absolute;
+          top: 0px;
+          left: 375px;
+          width: 186px; 
+          height: 120px;
+         }
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ESTILOS DAS DEMAIS PÁGINAS */
+
+
+
+
+.Conteudo_Geral /* DIV Class para conteúdo article */
+   {background-color: #ffbb99;
+    position: absolute;
+    top: 21.6%;
+    left: 2%;
+    width: 76%;
+    height: 65.1%;
+   }
+   #Formulario_Contato
+      {margin-left: 15%;
+       margin-top: 5%;
+     }
+
+.Aside_Geral /* DIV Class para conteúdo lateral de publicidade */
+   {background-color: #ffbb99;
+    position: absolute;
+    top: 21.6%;
+    right: 2%;
+    width: 19%;
+    height: 65.1%;
+   }
+
+.Patrocinador1_Aside img
+   {position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+   }
+
+.Patrocinador2_Aside img
+   {position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 90%; 
+   }
+
+.Patrocinador3_Aside img
+   {position: absolute;
+    top: 65%;
+    left: 5%;
+    width: 90%; 
+   }
+
+.Rodape_Geral /* DIV Class inferior para informações de rodapé */
+   {background-color: #ff7733;
+    position: absolute;
+    bottom: 0.8%;
+    left: 2%;
+    width: 96%;
+    height: 11.7%;
+   }
+   .Footer0_Geral
+      {}
+      .Footer1_Geral
+         {position: absolute;
+          top: 0%;
+          left: 0%;
+          width: 25%;
+          height: 100%;
+          color: white;
+         }
+         .Footer1_Geral p
+            {position: absolute;
+             top: 17%;
+             left: 15%; 
+            }
+
+
